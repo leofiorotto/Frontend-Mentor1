@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+:root {
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-width: 100%;    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem 1.5rem 1rem ;
+}
+
+.item-menu {
+    display: none;
+}
+
+.icono-menu {
+    margin-top: 0.5rem;
+}
+
+.seccion1 {
+    padding: 2rem;
+}
+
+
+.imagen-mobile {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+} 
+
+.parrafos {
+    margin-top: 1rem;
+    letter-spacing: 0;
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;    
+
+}
+
+.descripcion {
+    font-family: 'Inter', sans-serif;
+    color: var(--Dark-grayish-blue);
+    font-weight: 200px;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;  
+    margin-bottom: 2rem;  
+    margin-top: 1rem;
+}
+
+.boton-read-more {
+    text-decoration: none;
+    background-color: var(--Soft-red);
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    color: var(--Off-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
