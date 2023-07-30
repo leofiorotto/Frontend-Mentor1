@@ -17,7 +17,8 @@
 }
 
 html, body {
-    min-width: 100%;    
+    max-width: 90%;    
+    margin: 0 auto;
 }
 
 
@@ -36,7 +37,9 @@ html, body {
 }
 
 .seccion1 {
-    padding: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 
@@ -45,6 +48,10 @@ html, body {
     height: auto;
     background-size: cover;
 } 
+
+.imagen-desktop {
+    display: none;
+}
 
 .parrafos {
     margin-top: 1rem;
@@ -82,3 +89,173 @@ html, body {
     font-weight: 700;
 
 }
+
+.seccion2 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--Very-dark-blue);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.seccion2 h2 {
+    color: var(--Soft-orange);
+    padding: 1rem;
+}
+
+.seccion2 h3 {
+    padding-bottom: 1.5rem;
+    font-size: 1.35rem;
+}
+
+.item-card-section2 {
+    border-bottom: 1px solid white;
+    padding: 1rem;
+}
+
+.item-card-section2 p {
+     color: var(--Grayish-blue);
+     padding-bottom: 1rem;
+}
+
+.item-card3 {
+    border: none;
+}
+
+.item-card3, .item-card2 {
+    padding-top: 2rem;
+}
+
+.item-card-section3 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-section3 h2 {
+   padding-bottom: 1rem;
+   color: var(--Grayish-blue);
+}
+
+.card-section3 h3 {
+   padding-bottom: 1rem;
+}
+
+.item-card-section3 img {
+    height: 15vh;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+
+ @media screen and (min-width: 1300px) {
+
+     .item-menu {
+         display: block;
+         font-size: 1.5rem;
+         font-family: 'Inter', sans-serif;
+     }
+ 
+     .ul-menu {
+         display: flex;
+         gap: 1rem;
+     }
+ 
+     .icono-menu {
+         display: none;
+     }
+
+
+    .desktop-seccion1 {
+      display: flex;  
+    }
+
+    .imagen-mobile {
+        display: none;
+    }
+    
+
+    .imagen-desktop {
+        display: block;
+        width: 100%;
+        height: 40vh;
+    }
+
+
+    .seccion1 {
+        margin: 2rem;
+        margin-right: 0;
+    }
+
+    .titulo {
+        font-size: 5rem;
+        line-height: 0.8;
+        font-weight: 800;
+    }
+
+    .descripcion {
+        font-size: 1.2rem;
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    .seccion2 {
+        margin: 2rem;
+        height: 60vh;
+        width: fit-content;
+    }
+
+    .seccion2 h2 {
+        font-size: 3.5rem;
+    }
+
+    .seccion2 h3 {
+        font-size: 1.7rem;
+    }
+
+    .seccion2 p {
+        font-size: 1.2rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .parrafos {
+        display: flex;
+        padding: 1rem;
+        padding-bottom: 4rem;
+    }
+
+    .boton-read-more {
+        
+        width: fit-content;
+    }
+    
+
+    .seccion3 {
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    .card-section3 h2 {
+        font-size: 3.2rem;
+    }
+    
+    .card-section3 h3 {
+        font-size: 1.6rem;
+    }
+
+    .item-card-section3 img {
+        width: 20%;
+    }
+
+    
+    
+ }
